@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Jost:wght@200;300;400;500;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-cormorant: "Cormorant Garamond", Georgia, serif;
+  --font-jost: "Jost", Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #f7f3ec;
+  color: #3a2e25;
+  font-family: var(--font-jost);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.font-cormorant {
+  font-family: var(--font-cormorant);
+}
+
+.font-jost {
+  font-family: var(--font-jost);
+}
+
+.text-char {
+  color: #1e1710;
+}
+
+.text-bark {
+  color: #8b6f4e;
+}
+
+.text-wheat {
+  color: #c4a97d;
+}
+
+.text-umber {
+  color: #4a3728;
+}
+
+.bg-cream {
+  background-color: #f7f3ec;
+}
+
+.bg-ivory {
+  background-color: #fdfaf6;
+}
+
+.bg-parchment {
+  background-color: #ede6d8;
+}
+
+.bg-sand {
+  background-color: #d6c9b0;
+}
+
+.bg-umber {
+  background-color: #4a3728;
+}
+
+.border-parchment {
+  border-color: #ede6d8;
+}
+
+::selection {
+  background: #c4a97d;
+  color: #1e1710;
+}
