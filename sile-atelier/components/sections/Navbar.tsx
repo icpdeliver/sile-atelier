@@ -28,15 +28,13 @@ export default function Navbar() {
           : "bg-transparent"
       }`}
     >
-      {/* Logo */}
-      <a
-        href="#"
-        className={`font-cormorant font-light text-[1rem] tracking-widest2 uppercase transition-colors duration-500 ${
-          scrolled ? "text-[#3A2E25]" : "text-[#3A2E25] md:text-ivory"
-        }`}
-        style={{ fontFamily: "var(--font-cormorant)" }}
-      >
-        Sile Atelier
+      {/* LOGO */}
+      <a href="#">
+        <img
+          src={`/images/${lang === "en" ? "logo-en.png" : "logo-tr.png"}`}
+          alt="Sile Atelier"
+          className="h-14 md:h-16 object-contain"
+        />
       </a>
 
       {/* Desktop nav links */}
